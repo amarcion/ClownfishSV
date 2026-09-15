@@ -120,7 +120,7 @@ for category, fname in [
 print(f"  Total records: {len(records)}")
 
 # ── Derived lists for filter dropdowns ───────────────────────────────────────
-all_chroms  = sorted(set(r["chr"] for r in records), key=chrom_sort_key)
+all_chroms  = sorted(set(r["acc"] for r in records), key=lambda a: chrom_sort_key(acc_to_chr.get(a, a)))
 all_species = sorted(set(s for r in records for s in r["sp"]))
 
 # ── Embed into HTML ───────────────────────────────────────────────────────────
@@ -395,7 +395,7 @@ document.getElementById("btnReset").addEventListener("click", function() {
 function matchRec(r) {
   if (fCat   !== "ALL" && r.cat  !== fCat)              return false;
   if (fType  !== "ALL" && r.type !== fType)             return false;
-  if (fChr   !== "ALL" && r.chr  !== fChr)              return false;
+  if (fChr   !== "ALL" && r.acc  !== fChr)              return false;
   if (fSp    !== "ALL" && r.sp.indexOf(fSp) === -1)     return false;
   if (fMin   !== null  && r.len  <  fMin)               return false;
   if (fMax   !== null  && r.len  >  fMax)               return false;
@@ -450,7 +450,7 @@ function initTable() {
     data: RECORDS,
     deferRender: true,          // only render rows actually visible
     columns: [
-      { title:"Chr",         data:"chr",  orderable:true,
+      { title:"Chr",         data:"acc",  orderable:true,
         render: function(d)    { return '<span class="chrom-tag">'+d+'</span>'; } },
       { title:"Chr (CLA)",   data:"cla",  orderable:true,
         render: function(d)    { return d ? '<span class="chrom-tag" style="background:#f0f0ff">'+d+'</span>' : '–'; } },
@@ -547,7 +547,7 @@ function openDetail(rec) {
       '<h6>Chromosome</h6>' +
       '<span class="chrom-tag me-2">Chr: ' + rec.acc + '</span>' +
       (rec.cla ? '<span class="chrom-tag me-2" style="background:#f0f0ff">CLA: ' + rec.cla + '</span>' : '') +
-      '<span class="chrom-tag" style="background:#eee">BIA: ' + rec.chr + '</span>' +
+      '<br class="my-1"><span class="chrom-tag" style="background:#eee">BIA Alt. Name: ' + rec.chr + '</span>' +
     '</div>' +
     '<div class="detail-section">' +
       '<h6>Genomic overlap</h6>' +
