@@ -138,9 +138,7 @@ SV (built by `scripts/7_SV_Catalogue/generate_sv_database.py`, DataTables-based)
 and is tracked in this repository. If downloaded or cloned locally, just open
 it in a browser. It can also be viewed directly at:
 
-```
 https://amarcion.github.io/ClownfishSV/ClownfishSV_database.html
-```
 
 It's a large, self-contained file (~25 MB, all SV data embedded), so it may take
 a few seconds to load.
