@@ -1,0 +1,22 @@
+# Sea anemone host categories, following Gaboriau et al. (2025).
+# ENT = Entacmaea specialist; RAD = Radianthus specialist;
+# STI = Stichodactyla specialist; GEN = generalist.
+# (Transcribed from scripts/9_SV_and_Host_Specialization/SV_Host_Speci.OldScript.R)
+AKA	RAD
+AKY	GEN
+ALL	GEN
+BIA	ENT
+CRP	GEN
+EPH	ENT
+FRE	ENT
+LAT	GEN
+LAZ	GEN
+MCC	ENT
+OMA	ENT
+POL	STI
+PRC	RAD
+PRD	RAD
+SAN	STI
+SEB	GEN
+OCE	RAD
+CLA	GEN

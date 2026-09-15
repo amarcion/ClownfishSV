@@ -1,0 +1,16 @@
+AKA	scf03.1,scf04.1,scf07.1,scf09.1,scf10.1,scf11.1,scf14.1,scf20.1,scf12.1,scf17.1,scf21.1,scf24.1,scf05.1
+AKY	scf01.1,scf13.1,scf19.1,scf02.1,scf23.1,scf03.1,scf08.1,scf09.1,scf22.1
+ALL	scf11.1,scf13.1,scf14.1,scf16.1,scf20.1,scf24.1,scf01.1,scf12.1,scf21.1,scf07.1
+BIA	scf13.1,scf15.1,scf17.1,scf18.1,scf19.1,scf21.1,scf07.1,scf10.1,scf16.1,scf02.1,scf23.1,scf24.1,scf09.1
+CRP	scf01.1,scf13.1,scf14.1,scf16.1,scf19.1,scf02.1,scf07.1,scf12.1,scf17.1,scf20.1,scf21.1,scf04.1,scf05.1,scf06.1
+EPH	scf12.1,scf14.1,scf16.1,scf02.1,scf09.1,scf10.1,scf18.1,scf06.1
+FRE	scf15.1,scf16.1,scf23.1,scf09.1,scf20.1,scf24.1,scf05.1,scf06.1,scf08.1
+LAT	scf10.1,scf15.1,scf21.1,scf18.1,scf01.1,scf12.1,scf14.1,scf17.1,scf02.1,scf24.1
+LAZ	scf13.1,scf15.1,scf19.1,scf12.1,scf17.1,scf18.1,scf20.1,scf09.1
+MCC	scf11.1,scf12.1,scf14.1,scf16.1,scf03.1,scf17.1,scf19.1,scf21.1,scf06.1
+OMA	scf13.1,scf14.1,scf20.1,scf23.1,scf06.1,scf18.1,scf01.1,scf10.1,scf17.1,scf22.1,scf24.1,scf04.1,scf08.1
+POL	scf01.1,scf16.1,scf12.1,scf17.1,scf21.1,scf24.1,scf04.1,scf18.1
+PRC	scf01.1,scf10.1,scf12.1,scf19.1,scf23.1,scf08.1,scf09.1,scf02.1,scf15.1,scf11.1,scf17.1,scf18.1,scf21.1,scf22.1,scf04.1,scf05.1,scf06.1
+PRD	scf12.1,scf13.1,scf14.1,scf20.1,scf23.1,scf05.1,scf08.1,scf09.1,scf01.1,scf10.1,scf11.1,scf15.1,scf19.1,scf21.1,scf03.1,scf04.1,scf06.1
+SAN	scf10.1,scf12.1,scf13.1,scf15.1,scf16.1,scf02.1,scf07.1,scf23.1,scf04.1,scf06.1,scf09.1
+SEB	scf12.1,scf15.1,scf16.1,scf02.1,scf20.1,scf23.1,scf08.1,scf10.1,scf17.1,scf21.1,scf06.1
