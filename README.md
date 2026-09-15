@@ -131,23 +131,19 @@ figures/PDFs) are **not** tracked in this repository (see `.gitignore`) and are
 archived separately / available on request. Raw PacBio HiFi data: SRA BioProject
 *(accession pending)*.
 
-## SV atlas
+## SV catalogue
 
-`sv_database.html` is a self-contained, interactive catalogue of every SV (built
-by `scripts/7_SV_Catalogue/generate_sv_database.py`, DataTables-based) and **is**
-tracked in this repository. Downloaded or cloned locally, just open it in a
-browser. Viewed on GitHub itself, `.html` files are shown as source, not
-rendered — to browse it live as a webpage, enable **GitHub Pages** for this repo
-(Settings → Pages → Deploy from branch → `main` / `root`), after which it's
-reachable at:
+`ClownfishSV_database.html` is a self-contained, interactive catalogue of every
+SV (built by `scripts/7_SV_Catalogue/generate_sv_database.py`, DataTables-based)
+and is tracked in this repository. If downloaded or cloned locally, just open
+it in a browser. It can also be viewed directly at:
 
 ```
-https://<github-user>.github.io/<repo-name>/sv_database.html
+https://amarcion.github.io/ClownfishSV/ClownfishSV_database.html
 ```
 
-Note it is regenerated (not hand-edited); each regeneration adds a new ~26 MB
-blob to git history, so consider Git LFS if it will be rebuilt more than a
-couple more times before submission.
+It's a large, self-contained file (~25 MB, all SV data embedded), so it may take
+a few seconds to load.
 
 
 ## Citation
